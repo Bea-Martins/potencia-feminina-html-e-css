@@ -4,111 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta nome="author" content="Beatriz Martins">
-  <meta name="desctiotion" content="Aula sobre metadados para o curso de HTML5 e CSS - Potência Feminina.">
+  <meta name="desctiotion" content="Aula sobre gerenciamentode foco para o curso de HTML5 e CSS - Potência Feminina.">
 
   <link rel="stylesheet" href="style.css">
   <title>Potência Feminina</title>
 </head>
 
 <body>
-  <header>
-    <h2>Aqui é o cabeçalho do site</h2>
-  </header>
-  <main>
-    Aqui temos o conteúdo principal do site, só pode 1 e não pode estar dentro: article, aside, footer, header, nav
-  </main>
-  <aside>
-    <p>Conteúdo relacionado ao main.</p>
-  </aside>
-  <nav>
-    <ul>
-      <li><a href="#">Página inicial</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Contato</a></li>
-    </ul>
-  </nav>
-  <article>
-    <h3>Um artigo do site</h3>
-    <p>Esse artigo é muito bom!</p>
-  </article>
-  <section>
-    <h1>Esta é uma seção</h1>
-    <p>Essa seção é maneira.</p>
-  </section>
-  <h1>Isso é um h1</h1>
-  <h2>Isso é um h2</h2>
-  <h3>Isso é um h3</h3>
-  <h4>Isso é um h4</h4>
-  <h5>Isso é um h5</h5>
-  <h6>Isso é um h6</h6>
-  <p>Este é um parágrafo <em>com ênfase aqui</em>.</p>
-  <p>Isso é um parágrafo <strong>com importância bem aqui.</strong></p>
-  <p lang="en">This is a paragraph in English.</p>
-  <p>Aqui temos um parágrafo <span>com um span</span></p>
-  <h2>Lista Ordenada</h2>
-  <ol>
-    <li>Primeiro item</li>
-    <li>Segundo item</li>
-  </ol>
-
-  <h2>Lista Não Ordenada</h2>
-  <ul>
-    <li>Primeiro item</li>
-    <li>Segundo item</li>
-  </ul>
-
-  <h3>Trabalhando com links</h3>
-  <h4>Forma correta</h4>
-  <p>Este é um link para o <a href="https://www.google.com.br/" title="O maior site de busca" target="_blank" rel="noreferrer noopener">site do Google</a>.</p>
-
-  <h4>Forma errada</h4>
-  <p><a href="https://www.google.com.br/" title="O maior site de busca" target="_blank" rel="noreferrer noopener">Clique aqui</a> para ir para o site do Google.</p>
-
-  <h5>Trabalhando formulários</h5>
-  <form>
-    <div>
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" placeholder="Digite seu nome">
-    </div>
-    <div>
-      <label for="email">E-mail:</label>
-      <input type="email" id="email" placeholder="Digite seu e-mail">
-    </div>
-    <div>
-      <label for="mensagem">Mensagem:</label>
-      <textarea id="mensagem">Esse campo já está preenchido</textarea>
-    </div>
-    <div>
-      <button>Enviar mensagem</button>
-    </div>
-  </form>
-
-  <h2>Trabalhando com multimídia</h2>
-  <figure>
-    <img src="imagens/cat.jfif" alt="Meme de gato" title="meme de gato">
-    <figcaption>Meme gatinho comendo</figcaption>
-  </figure>
-
-  <h2>Trabalhando com tabelas</h2>
-  <table>
-    <caption>Datas de aniversário</caption>
-    <tr>
-      <td>Nome</td>
-      <td>Idade</td>
-      <td>Data</td>
-    </tr>
-    <tr>
-      <td>Bea</td>
-      <td>26</td>
-      <td>20/01/2024</td>
-    </tr>
-    <tr>
-      <td>Jaso</td>
-      <td>26</td>
-      <td>17/01/2024</td>
-    </tr>
-  </table>
-  <footer>Aqui é o rodapé do site</footer>
+  <h2>Gerenciamento de foco</h2>
+  <div tabindex="1">Primeiro elemento focado.</div>
+  <label for="input">Segundo elemento focado:</label>
+  <input type="text" id="input">
+  <div tabindex="0">Terceiro elemento focado.</div>
+  <div>Essa div não é focada.</div>
 </body>
 
 </html>
