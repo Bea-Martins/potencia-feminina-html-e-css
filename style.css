@@ -1,54 +1,16 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: purple;
-}
-
-p {
-  color: aqua;
-}
-
-.colorido {
-  color: red;
-}
-
-#paragrafo {
-  color: pink;
-}
-
-main > h3 {
-  color: yellow;
-}
-
-.exemplo:hover {
-  background-color: lightblue;
-}
-
-.exemplo:focus {
-  background-color: pink;
-}
-
-.exemplo:active {
-  background-color: lightgreen;
-}
-
-li:first-child {
+.exemplo {
   color: blue;
 }
 
-li:last-child {
-  color: red;
+.exemplo-1 {
+  color: #ff0000;
 }
-
-li:nth-child(2) {
-  color: green;
+.exemplo-2 {
+  color: rgb(0, 255, 0);
 }
-
-.exemplo2::after {
-  content: "DEPOIS";
+.exemplo-3 {
+  color: rgb(0, 0, 255);
 }
-
-.exemplo2::before {
-  content: "ANTES";
+.exemplo-4 {
+  color: #fc6c23;
 }
