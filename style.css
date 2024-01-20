@@ -20,3 +20,27 @@ p {
 main > h3 {
   color: yellow;
 }
+
+.exemplo:hover {
+  background-color: lightblue;
+}
+
+.exemplo:focus {
+  background-color: pink;
+}
+
+.exemplo:active {
+  background-color: lightgreen;
+}
+
+li:first-child {
+  color: blue;
+}
+
+li:last-child {
+  color: red;
+}
+
+li:nth-child(2) {
+  color: green;
+}
