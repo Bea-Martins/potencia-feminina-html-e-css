@@ -1,9 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: purple;
 }
 
 p {
   color: aqua;
+}
+
+.colorido {
+  color: red;
+}
+
+#paragrafo {
+  color: pink;
+}
+
+main > h3 {
+  color: yellow;
 }
