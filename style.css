@@ -44,3 +44,11 @@ li:last-child {
 li:nth-child(2) {
   color: green;
 }
+
+.exemplo2::after {
+  content: "DEPOIS";
+}
+
+.exemplo2::before {
+  content: "ANTES";
+}
