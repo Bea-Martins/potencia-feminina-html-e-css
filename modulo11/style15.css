@@ -1,0 +1,13 @@
+.container {
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: 100px 100px 50px;
+  grid-gap: 10px;
+}
+.caixa {
+  background: palevioletred;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
