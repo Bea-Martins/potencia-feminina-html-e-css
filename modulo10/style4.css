@@ -1,0 +1,6 @@
+.caixa {
+  width: 100px;
+  height: 100px;
+  background-color: lightcoral;
+  transform: skewX(10deg); /* horizontal e vertical */
+}
