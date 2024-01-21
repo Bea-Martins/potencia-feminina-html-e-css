@@ -1,0 +1,28 @@
+@keyframes animacao {
+  0% {
+    /* início da animação */
+    background-color: red;
+    top: 0;
+    left: 0;
+  }
+
+  50% {
+    /* meio da animação */
+    top: 0;
+    left: 100px;
+  }
+
+  100% {
+    /*fim da animação */
+    background-color: blue;
+    top: 100px;
+    left: 100px;
+  }
+}
+
+.caixa {
+  width: 300px;
+  height: 300px;
+  animation: animacao 2s infinite alternate;
+  position: relative;
+}
