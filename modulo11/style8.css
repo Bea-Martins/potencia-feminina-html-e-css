@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid green;
+  display: flex;
+  height: 300px;
+  width: 300px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.caixa {
+  background: palevioletred;
+  width: 50px;
+  border: 2px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
