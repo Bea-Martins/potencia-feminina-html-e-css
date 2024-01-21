@@ -1,0 +1,9 @@
+.caixa {
+  width: 500px;
+  height: 500px;
+  border: 1px solid red;
+  background-image: url("/imagens/cat2.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px 120px;
+}
