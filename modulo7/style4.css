@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none; /* sublinhado */
+  color: tomato;
+}
+.link:hover {
+  color: violet;
+}
+.link:active {
+  color: green;
+}
+.link:focus {
+  outline: none;
+  border: 1px solid tomato;
+}
