@@ -1,0 +1,40 @@
+.caixa-1 {
+  background-color: blue;
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+}
+.caixa-2 {
+  background-color: purple;
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.caixa-3 {
+  background-color: turquoise;
+  width: 70px;
+  height: 70px;
+  margin: 5px 10px 15px 20px;
+}
+.caixa-4 {
+  background-color: coral;
+  width: 70px;
+  height: 70px;
+  margin: 30px 40px;
+}
+.botao-1 {
+  padding: 10px;
+}
+.botao-2 {
+  padding: 5px 20px; /* 5px cima e baixo, 20px dos lados*/
+}
+.texto {
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  background-color: pink;
+  box-sizing: border-box;
+}
