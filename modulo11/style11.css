@@ -1,0 +1,22 @@
+.container {
+  border: 1px solid green;
+  display: flex;
+}
+.caixa {
+  background: palevioletred;
+  width: 40px;
+  height: 40px;
+  border: 1px solid purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.caixa:nth-child(1) {
+  flex-shrink: 0;
+}
+.caixa:nth-child(2) {
+  flex-shrink: 1;
+}
+.caixa:nth-child(3) {
+  flex-shrink: 2;
+}
