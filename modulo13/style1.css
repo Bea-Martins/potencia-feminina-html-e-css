@@ -1,0 +1,23 @@
+.topo {
+  border: 1px solid blue;
+}
+
+.topo__link {
+  color: red;
+}
+
+.topo__link--grande {
+  font-size: 32px;
+}
+
+.rodape {
+  border: 1px solid purple;
+}
+
+.rodape__link {
+  color: green;
+}
+
+.rodape__link--pequeno {
+  font-size: 12px;
+}
